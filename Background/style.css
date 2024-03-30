@@ -1,0 +1,33 @@
+/* Note
+background-color
+mengatur warna background
+background-image
+mengatur gambar pada background
+background-position
+mengatur posisi gambar pada background
+-top left
+-top center
+-top right 
+-center left
+-center center
+-center right
+-bottom left 
+-bottom center 
+-bottom right 
+-x% y%
+-x-pos y-pos
+background-repeat
+mengatur jenis perulangan pada background
+
+shorthand/singkatan
+background: color url() position repeat; 
+-urutan nya bisa di tukar
+*/
+
+body{
+    /* background-color: white;
+    background-image: url(images/gambar1);
+    background-repeat: no-repeat;
+    background-position:bottom center */
+    background:rgb(169, 233, 169) url(images/gambar1) top left repeat-x ;
+}

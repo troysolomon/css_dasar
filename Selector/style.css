@@ -1,0 +1,48 @@
+/* Note : 
+*Operator , 
+    untuk menggabungkan selector
+contoh : 
+h1,h2{property: value;}
+
+ul li a{
+   property : value;
+}
+*untuk kode selector diatas, dibaca nya dari kanan 
+jadi css memanggil selector a yang ada di dalam li, yang ada didalam ul
+
+*Untuk panggil selector class atau id
+gunakan # untuk id dan . untuk class
+untuk 
+1. untuk penamaan class bisa lebih dari satu (seperti contoh pada <p> penamaan kelasnya ada 2 yaitu p dan cetak-tebal) , sedangkan 1 elemen HTML hanya bisa memiliki 1 id.
+2. untuk mengganti style di CSS  pada nama class yang dipakai di lebih dari satu elemen sbb:
+    [nama elemen].[nama kelas]
+    yang mana pada video dicontohkan dengan  
+    p.cetak-tebal
+*/
+h1,h2 {
+    color: cornflowerblue;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+}
+ul li a{
+    color: sandybrown;
+}
+ol li a{
+    color : red ;
+}
+#p1{
+    color: blueviolet;
+}
+.p2{
+    color: brown;
+}
+p.kijang1{
+    font-style: italic;
+    color: tomato;
+}
+p.kijang2{
+    font-weight: 500;
+    color: black;
+}

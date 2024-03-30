@@ -1,0 +1,46 @@
+/*  
+font family : Mengatur jenis font yang akan digunakan
+font size : Mengatur ukuran font 
+font weight : Mengatur ketebalan font
+font variant : Mengatur font menjadi small caps 
+*/
+
+h1 {
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-variant:small-caps ; */
+    font:italic normal 500 60px/20px Verdana;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-variant: normal;
+    font-style: italic;
+    line-height: 25px;
+}
+
+/* Note:
+font-weight :
+lighter
+normal
+100-900
+bold 
+bolder
+
+font-caps :
+normal
+small caps
+
+font-style :
+normal
+italic
+oblique
+
+line-height :
+normal
+px
+em
+
+font shorthand/singkatan:
+selector {font :font-style font-variant weight font-size/line-height font-family;}
+*/
