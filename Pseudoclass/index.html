@@ -4,9 +4,60 @@ yang membuat kira dapat mendefinisikan style pada "keadaan tertentu" dari elemen
 *Tipe pada pseudoclass
 -link
 style default pada sebuah link(a yang memiliki href)
--hover
+-active
 style ketika sebuah link di-klik(keadaan aktif)
+-hover
+style ketika kursor mouse berada diatas link/elemen
 -visited
 style ketika sebuah link sudah pernah dikunjungi
 sebelumnya(menggunakan browser yang sama)
 -->
+<!-- 
+    Pseudoclass yang berhubungan dengan posisi elemen
+    -first-child
+    memilih elemen pertama dari sebuah parent(elemen pembungkus)
+    -last-child
+    memilih elemen terakhir dari sebuah parent (elemen pembungkus)
+    -nth-child
+    memilih elemen ke n dari sebuah parent (elemen pembungkus)
+    n bisa berarti urutan (1),(2) atau pola (2n),(3n+2) atau ganjil genap (even) (odd)
+ -->
+ <!-- 
+    Pseudoclass yang berhubungan dengan posisi elemen
+    -first-of-type
+    memilih elemen pertama dari sebuah jenis / tipe tag
+    -last of type
+    memilih elemen terakhir dari sebuah jenis / tipe tag
+  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclass</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#" class="hello">Hello world</a>
+
+    <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+        <li><a href="#">Link 4</a></li>
+        <li><a href="#">Link 5</a></li>
+        <li><a href="#">Link 6</a></li>
+        <li><a href="#">Link 7</a></li>
+        <li><a href="#">Link 8</a></li>
+        <li><a href="#">Link 9</a></li>
+        <li><a href="#">Link 10</a></li>
+    </ul>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur earum placeat vel totam quia autem maiores eaque ipsum quasi esse corrupti tempora ut nesciunt reiciendis, quam non accusantium, nam harum!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur earum placeat vel totam quia autem maiores eaque ipsum quasi esse corrupti tempora ut nesciunt reiciendis, quam non accusantium, nam harum!
+    </p>
+</body>
+</html>
