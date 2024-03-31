@@ -5,27 +5,28 @@ dari properti yang dimiliki oleh elemen parent nya
 * Contoh :
 Kalau misalkan bagian body html dan css nya seperti berikut : 
 -HTML
-<body>
+<!-- <body>
 <h1>Hello world</h1>
 <a>Kembali kehalaman utama</a>
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, maiores tempora reprehenderit itaque esse non nisi nihil fugiat. Voluptatibus ipsum consequuntur quia natus eos consequatur ipsa non itaque iste architecto!</p>
-</body>
-
+</body> -->
 -CSS
+<!-- 
 body {
     font family: arial;
     color: darkgrey;
-}
+} -->
 
 Ketika di jalan kan, hanya bagian header dan paragrafnya yang berubah,
 sedangkan link nya tidak, maka kita menggunakan perintah inherit
 
 * Contoh :
 -CSS
+<!--
 body {
     font family: arial;
     color: darkgrey;
 }
-a{color: inherit;}
+a{color: inherit;} -->
 
 Dengan ini, link nya mengambil properti dari body
